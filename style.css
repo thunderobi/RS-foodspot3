@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 10px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    background-color: rgb(255, 139, 31) !important;
+}
+nav svg{
+    padding-bottom: 5px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+#navbarSupportedContent a{
+    color: black;
+    font-weight: 550;
+    font-size: 18px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 4px solid black;
+}
+.search{
+    font-family: cursive;
+    background-color: rgb(255, 243, 219) !important;
+    font-size: 16px !important;
+}
+.btn{
+    color: black !important;
+    border-radius: 20px !important;
+}
+.btn:hover{
+    color: white !important;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 90px;
+    color: white;
+    font-family: cursive;
+    text-shadow: 8px 8px 1px rgb(0, 0, 0);
+}
+#home p{
+    font-size: 40px;
+    padding-top: 6px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+    font-weight: 400;
+}
+#about img{
+    width: 640px;
+    height: 500px;
+    margin-top: 60px;
+    border-radius: 8%;
+    box-shadow: 15px 10px 25px rgb(70, 70, 70);
+}
+#about h1{
+    color: antiquewhite;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    text-shadow: 6px 6px 6px rgb(0, 0, 0);
+    font-weight: 600;
+}
+#about p{
+    color: antiquewhite;
+    padding-top: 13px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 6px 6px 6px rgb(0, 0, 0);
+}
+#about{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(https://img.freepik.com/premium-photo/parsley-parsley-tomato-garlic-olive-oil-pepper-salt-wooden-stand-salad-fork-spoon-wooden-cooking-background-food-cooking-background-ingredients-cooking-food-background-mock-up_253362-17365.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#menu{
+    background: linear-gradient(rgb(113, 243, 255),rgb(62, 194, 255) 100%);
+}
+#menu h1{
+    color: white;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 52px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-weight: 600;
+}
+#menu img{
+    width: 335px;
+    height: 220px;
+    border-radius: 5% !important;
+}
+.card{
+    width: 335px;
+    box-shadow: 15px 10px 20px rgb(34, 34, 34);            
+    border-radius: 4% !important;
+    margin-top: 10px !important;
+    margin-left: 25px !important;
+    transition: .2s;
+    margin-bottom: 60px;
+}
+.card:hover{
+    box-shadow: 1px 1px 0px rgb(219, 219, 219);
+    transition: .1s;
+}
+#contact{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url(https://img.freepik.com/premium-photo/parsley-parsley-tomato-garlic-olive-oil-pepper-salt-wooden-stand-salad-fork-spoon-black-stone-background-food-cooking-background-ingredients-cooking-food-background-mock-up_253362-17361.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#contact input{
+    margin: 10px 0px;
+    box-shadow: 4px 4px 4px;
+}
+#contact textarea{
+    margin: 10px 0px;
+    box-shadow: 4px 4px 4px;
+}
+#contact h1{
+    color: white;
+    text-shadow: 6px 6px 8px rgb(0, 0, 0);
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#contact h2{
+    color: white;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 18px;
+}
+#contact p{
+    color: white;
+    text-shadow: 6px 6px 4px rgb(0, 0, 0);
+    font-size: 20px;
+}
+#contact p i{
+   margin-left: 18px;
+}
+#contact p i:hover{
+    cursor: pointer;
+ }
+footer{
+    width: 100%;
+    height: 40px;
+    background: rgba(26, 26, 26, 0.6);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
